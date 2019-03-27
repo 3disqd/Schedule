@@ -1,0 +1,31 @@
+.schedule-list-card{
+    display: flex;
+    background: lightgray;
+    margin-bottom: 10px;
+}
+.schedule-list-card__image-wrapper{
+    height: 92px;
+    background-color: gray;
+}
+/*.schedule-list-card__image{*/
+    /*border: solid 1px black;*/
+/*}*/
+.schedule-list-card__image{
+    object-fit: contain;
+    width: 92px;
+    height: 92px;
+}
+.schedule-list-card__content-wrapper{
+    align-items: flex-start;
+    height: 92px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.schedule-list-card__program,
+.schedule-list-card__channel-name{
+    margin-top: 5px;
+    margin-left: 5px;
+    text-align: left;
+}
